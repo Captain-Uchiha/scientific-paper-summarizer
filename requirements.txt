@@ -1,0 +1,16 @@
+transformers>=4.40
+datasets>=2.18
+torch
+sentencepiece
+nltk
+rouge-score
+evaluate
+accelerate
+streamlit
+pymupdf
+scikit-learn
+sumy
+keybert
+matplotlib
+pandas
+tqdm

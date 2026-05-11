@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data / model artifacts (kept on Google Drive or HF Hub, not in git)
+# Ignore trained checkpoints + subfolders, but keep the source .py model wrappers
+models/**/
+!models/__init__.py
+!models/*.py
+outputs/
+dataset/processed/
+dataset/pubmed_*/
+dataset/arxiv_*/
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+.venv/
+tests/__pycache__/
+*.log
+
